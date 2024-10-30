@@ -13,9 +13,9 @@ body {
 header {
 
     img{
-height: 20px;
-width: 20px;
-border-radius: 0%;
+height: 100px;
+width: 100px;
+
     }
     background-color: #333; 
     color: #fff;
@@ -26,6 +26,7 @@ border-radius: 0%;
 
 h1 {
     margin-bottom: 0.5rem;
+   
 }
 
 nav ul {
@@ -59,6 +60,12 @@ section {
 
 h2 {
     color: #333;
+
+    img{
+padding-left: 20px;
+        width: auto;
+        height: 40px;
+    }
 }
 
 footer {
@@ -71,26 +78,15 @@ footer {
 }
 
 
-
-#funders ul {
-    list-style: none; 
-    padding: 0;
-    display: flex; 
-    justify-content: center; 
-    flex-wrap: wrap; 
-   
+#contact
+{
+text-align: left;
+    img{
+    height: 40px;
+        width:auto;
+    }
+    
 }
-
-
-#funders ul li {
-    margin: 1rem;
-    transition: transform 0.3s; 
-}
-#funders ul li {
-    margin: 1rem; 
-    transition: transform 0.3s; 
-}
-
 
 #profiles ul {
     list-style: none; 
@@ -101,42 +97,9 @@ footer {
    
 }
 
-
-#profiles ul li {
-    margin: 1rem;
-    transition: transform 0.3s; 
-}
 #profiles ul li {
     margin: 1rem; 
     transition: transform 0.3s; 
 }
 
-#alumni ul {
-    list-style: none; 
-    padding: 0;
-    display: flex; 
-    justify-content: left; 
-    flex-wrap: wrap; 
-   
-}
 
-
-#alumni ul li {
-    margin: 1rem;
-    transition: transform 0.3s; 
-}
-#alumni ul li {
-    margin: 1rem; 
-    transition: transform 0.3s; 
-}
-
-
-@media (max-width: 768px) {
-    nav ul {
-        text-align: left;
-    }
-    nav li {
-        display: block;
-        margin: 0.5rem 0;
-    }
-}
