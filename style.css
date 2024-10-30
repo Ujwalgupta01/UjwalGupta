@@ -77,6 +77,15 @@ footer {
     
 }
 
+#professional-activities
+{
+
+    img{
+    height: 30px;
+        width:auto;
+    }
+    
+}
 
 #profiles ul {
     list-style: none; 
