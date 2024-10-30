@@ -77,11 +77,12 @@ footer {
     
 }
 
-#professional-activities
-{
 
+#contact
+{
+text-align: left;
     img{
-    height: 30px;
+    height: 40px;
         width:auto;
     }
     
