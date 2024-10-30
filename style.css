@@ -77,6 +77,15 @@ footer {
     
 }
 
+#contact
+{
+text-align: left;
+    img{
+    height: 40px;
+        width:auto;
+    }
+    
+}
 
 #profiles ul {
     list-style: none; 
